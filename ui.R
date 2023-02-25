@@ -79,12 +79,7 @@ shinyUI(pageWithSidebar(
                HTML ("<div><h4> This table depicts the Sentiment of the Tweets (Positive, Negative or Neutral) 
 				associated with the searched Hashtag by showing the score for each type of sentiment. </h4></div>")),
       
-      
-      tabPanel("Top Charts",HTML
-               ("<div><h3> Top 20 users who used that Hashtag</h3></div>"),plotOutput("tweetersplot"), tableOutput("tweeterstable")),
-      
-      tabPanel("Top Hashtags of User",textInput("user", "Enter Twitter Handle to be analyzed", "@"),submitButton(text="Analyze"),plotOutput("tophashtagsplot"),HTML
-               ("<div> <h3>Hashtag frequencies in the tweets of the Twitter User</h3></div>"))
+     
       )#end of tabset panel
       )#end of main panel
   

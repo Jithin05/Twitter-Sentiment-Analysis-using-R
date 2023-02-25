@@ -1,7 +1,6 @@
 # Twitter-Sentiment-Analysis-using-R
 
-# Twitter-Senitmental-Analysis
-analyze the senitment of people
+Analyze the senitment of people
 A Simple Approach to Twitter Sentiment Analysis in R Programming Language
 
    This project is on “Twitter Sentiment Analysis using R”
